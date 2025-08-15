@@ -15,13 +15,21 @@ Hi! My name is William W
 | Scrummer     | Avantika | github.com/avantika/student         | downstream (fork)     | student   |
 | Scrummer     | Aadit    | github.com/aaadit/student           | downstream (fork)     | student   |
 
+## Code Code Code duration
+
+| Start | End |
+| ----------- | ----------- |
+| 1:18 PM | 2:24 PM |
+| 1:32 PM | 2:31 PM |
 
 ## Links to Learning
 
 <a href="https://www.google.com" class="button small" style="background-color: #6b4bd3ff">
     Click To Get Answers
 </a>
-
+<a href="https://www.google.com/search?q=flip+a+coin&oq=flip+a+coin&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiPAjIHCAIQABiPAtIBCDMzOTVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8&safe=active&ssui=on" class="button small" style="background-color: #6b4bd3ff">
+    Flip A Coin
+</a>
 ### Development Environment
 
 > Coding starts with tools, explore these tools and procedures with a click.
