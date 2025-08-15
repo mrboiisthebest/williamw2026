@@ -1,12 +1,12 @@
 ---
 layout: base
-title: I'm [Your Full Name]
+title: I'm William W
 hide: true
 ---
 
 ### Me and Team
+Hi! My name is William W
 
-Hi! My name is [Your Full Name].
 
 | Role         | Name     | Repo Location                       | Stream                | Repo Name |
 |--------------|----------|-------------------------------------|-----------------------|-----------|
@@ -17,6 +17,10 @@ Hi! My name is [Your Full Name].
 
 
 ## Links to Learning
+
+<a href="https://www.google.com" class="button small" style="background-color: #6b4bd3ff">
+    Click To Get Answers
+</a>
 
 ### Development Environment
 
