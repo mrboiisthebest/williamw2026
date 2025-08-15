@@ -22,7 +22,7 @@ Hi! My name is William W
 | 1:18 PM | 2:24 PM |
 | 1:32 PM | 2:31 PM |
 
-## Links to Learning
+
 
 <a href="https://www.google.com" class="button small" style="background-color: #6b4bd3ff">
     Click To Get Answers
@@ -30,6 +30,10 @@ Hi! My name is William W
 <a href="https://www.google.com/search?q=flip+a+coin&oq=flip+a+coin&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiPAjIHCAIQABiPAtIBCDMzOTVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8&safe=active&ssui=on" class="button small" style="background-color: #6b4bd3ff">
     Flip A Coin
 </a>
+<a href="https://spinning.fish/" class="button small" style="background-color: #6b4bd3ff">
+    Fish 🐟
+</a>
+## Links to Learning
 ### Development Environment
 
 > Coding starts with tools, explore these tools and procedures with a click.
