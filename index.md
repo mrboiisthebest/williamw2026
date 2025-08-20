@@ -72,3 +72,18 @@ Hi! My name is William W
 <p style="color: #2A7DB1;">Open Coding Society: <a href="https://opencodingsociety.com" style="color: #2A7DB1; text-decoration: underline;">Socials</a></p>
 
 <img src="https://media0.giphy.com/media/OfXKySrn0Ej4s/200w.gif">
+
+
+<script>
+    fetch("https://cataas.com/cat")
+        .then(response => response.blob())
+        .then(blob => {
+            const imgUrl = URL.createObjectURL(blob);
+            const img = document.createElement('img');
+            img.src = imgUrl;
+            img.alt = "Random Cat";
+            img.style.maxWidth = "300px";
+            document.body.appendChild(img);
+        })
+        .catch(error => console.error("Error fetching cat image:", error));
+</script>
