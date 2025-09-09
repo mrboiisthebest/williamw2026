@@ -2,12 +2,15 @@
 layout: base
 title: Background with Object
 description: Use JavaScript to have an in motion background.
+# locations of images
 sprite: images/platformer/sprites/flying-ufo.png
 background: images/platformer/backgrounds/alien_planet1.jpg
 permalink: /background
 ---
 
+<!-- HTML for where game is stored-->
 <canvas id="world"></canvas>
+<!-- Script logic for the game-->
 
 <script>
   const canvas = document.getElementById("world");
@@ -75,9 +78,11 @@ permalink: /background
         this.frame++;
       }
     }
+    // master clas for entire game
 
     class GameWorld {
       static gameSpeed = 5;
+      // images enter the world
       constructor(backgroundImg, spriteImg) {
         this.canvas = document.getElementById("world");
         this.ctx = this.canvas.getContext('2d');
@@ -96,6 +101,8 @@ permalink: /background
          new Player(spriteImg, this)
         ];
       }
+      //Keeps game alive
+
       gameLoop() {
         this.ctx.clearRect(0, 0, this.width, this.height);
         for (const obj of this.objects) {
@@ -110,5 +117,6 @@ permalink: /background
     }
 
     const world = new GameWorld(backgroundImg, spriteImg);
+    //starts the game world
     world.start();
   }
