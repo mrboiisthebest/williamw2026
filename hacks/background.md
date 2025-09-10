@@ -13,6 +13,7 @@ permalink: /background
 <!-- Script logic for the game-->
 
 <script>
+// get and create required values
   const canvas = document.getElementById("world");
   const ctx = canvas.getContext('2d');
   const backgroundImg = new Image();
@@ -48,7 +49,7 @@ permalink: /background
         ctx.drawImage(this.image, this.x, this.y, this.width, this.height);
       }
     }
-
+  // class for background sprite
     class Background extends GameObject {
       constructor(image, gameWorld) {
         // Fill entire canvas
@@ -62,7 +63,7 @@ permalink: /background
         ctx.drawImage(this.image, this.x + this.width, this.y, this.width, this.height);
       }
     }
-
+    // class for the player sprite
     class Player extends GameObject {
       constructor(image, gameWorld) {
         const width = image.naturalWidth / 2;
